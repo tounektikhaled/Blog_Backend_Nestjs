@@ -1,4 +1,4 @@
-# GraphQL-Based Blog Platform
+# Blog_Backend_Nestjs
 
 Ce projet est une application backend développée avec NestJS, PostgreSQL et Prisma. Il offre des fonctionnalités d'authentification via JWT et permet la gestion des utilisateurs, des articles et des commentaires. L'application comprend des autorisations différenciées pour les utilisateurs réguliers et les administrateurs.
 
@@ -19,8 +19,8 @@ Ce projet propose une API backend construite avec NestJS, un framework Node.js m
 
 ### Configuration
 Créez un fichier `.env` à la racine du projet avec les variables d'environnement suivantes :
-DATABASE_URL=URL_DE_VOTRE_BASE_DE_DONNÉES
-JWT_SECRET=VOTRE_SECRET_JWT
+1. DATABASE_URL=URL_DE_VOTRE_BASE_DE_DONNÉES
+2. JWT_SECRET=VOTRE_SECRET_JWT
 
 ### Utilisation
 1. Assurez-vous que votre base de données PostgreSQL est en cours d'exécution.
